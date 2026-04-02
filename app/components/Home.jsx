@@ -6,7 +6,7 @@ import { ArrowRight, DownloadIcon } from "lucide-react";
 
 export function Home() {
   return (
-    <section id="home" className="w-full  ">
+    <section id="home" className="w-full py-16 md:py-32 ">
       <div className="flex flex-col gap-8 py-4 px-5 pb-4 items-center justify-center ">
         <Image
           src="/images/profile.png"
@@ -14,7 +14,7 @@ export function Home() {
           height={100}
           width={100}
           loading="eager"
-          className="rounded-full border-2 border-gray-300 object-cover aspect-square flex sm:mt-10 "
+          className="rounded-full border-2 border-gray-300 object-cover aspect-square flex "
         />
 
         <h1 className="text-3xl text-center leading-tight md:leading-snug max-w-4xl mx-auto">
