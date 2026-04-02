@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react"; // Install lucide-react or use SVG
+import { Menu, X } from "lucide-react";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ export function Navbar() {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50 flex justify-center p-4">
-      <nav className="w-full max-w-2xl bg-gray-800/90 backdrop-blur-md rounded-3xl md:rounded-full px-6 py-3 transition-all duration-300 shadow-lg ">
+      <nav className="w-full max-w-2xl bg-[#1e1b4b]/90 backdrop-blur-md rounded-3xl md:rounded-full px-6 py-3 transition-all duration-300 shadow-lg ">
         <div className="flex items-center justify-between md:justify-center">
           <span className="text-white font-bold md:hidden">
             Nextjs || TypeScript Developer
