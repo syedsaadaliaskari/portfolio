@@ -23,7 +23,7 @@ export function Projects() {
       id: 2,
       title: "MystryMsg Application",
       description:
-        "A secure, Full-Stack Anonymous Messaging SaaS designed to facilitate honest feedback loops. Built with a 'Backend-First' approach, the platform leverages NextAuth.js for robust user authentication and PostgreSQL for scalable data management. I architected a custom API layer to handle anonymous message delivery, user dashboard statistics, and toggleable 'accepting messages' states. The project demonstrates advanced SQL query logic and a clean, 'shadcn/ui' inspired dashboard interface.",
+        "A secure, Full-Stack Anonymous Messaging SaaS designed to facilitate honest feedback loops. Built with a 'Backend-First' approach, the platform leverages NextAuth.js for robust user authentication and MongoDb for scalable data management. I architected a custom API layer to handle anonymous message delivery, user dashboard statistics, and toggleable 'accepting messages' states. The project demonstrates advanced SQL query logic and a clean, 'shadcn/ui' inspired dashboard interface.",
       tags: [
         "React",
         "Next.js",
