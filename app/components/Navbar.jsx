@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,14 @@ export function Navbar() {
     <div className="fixed top-0 left-0 right-0 z-50 flex justify-center p-4">
       <nav className="w-full max-w-2xl bg-[#1e1b4b]/90 backdrop-blur-md rounded-3xl md:rounded-full px-6 py-3 transition-all duration-300 shadow-lg ">
         <div className="flex items-center justify-between md:justify-center">
-          <span className="text-white font-bold md:hidden">
+          <motion.span
+            initial={{ y: -20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="text-white font-bold md:hidden"
+          >
             Nextjs || TypeScript Developer
-          </span>
+          </motion.span>
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex gap-8">

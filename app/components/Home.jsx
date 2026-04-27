@@ -35,12 +35,6 @@ export function Home() {
               <ArrowRight />
             </span>
           </Button>
-          <Button className="text-gray-300  bg-[#1e1b4b]/90 hover:bg-[#1a128b] border border-gray-700/50 p-2 animate-bounce mt-3">
-            Download Cv{" "}
-            <span className="text-[#f472b6]">
-              <DownloadIcon />
-            </span>
-          </Button>
         </div>
 
         {/* Desktop  */}

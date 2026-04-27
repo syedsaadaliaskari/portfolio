@@ -18,6 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Loader2 } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function Contact() {
   const [isLoading, setIsLoading] = useState(false);
