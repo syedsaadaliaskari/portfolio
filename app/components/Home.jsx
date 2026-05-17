@@ -113,7 +113,7 @@ export function Home() {
             </a>
             <span className="text-gray-700">·</span>
             <a
-              href="https://linkedin.com/in/syedsaadaliaskari"
+              href="https://www.linkedin.com/in/syed-saad-ali-askari-0934263ab"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-xs text-gray-500 hover:text-gray-300 transition-colors"
